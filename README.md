@@ -84,7 +84,5 @@ Username: admin
 Password: admin123
 
 - Kalau port backend atau frontend bentrok, ubah:
-backend di launchSettings.json, frontend lewat konfigurasi Vite, atau jalankan ulang di port lain
+backend di launchSettings.json, frontend lewat konfigurasi Vite, atau jalankan ulang di port lainfrontend lewat konfigurasi Vite atau jalankan ulang di port lain
 
-backend di launchSettings.json
-frontend lewat konfigurasi Vite atau jalankan ulang di port lain
