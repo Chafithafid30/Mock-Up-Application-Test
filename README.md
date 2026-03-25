@@ -36,7 +36,7 @@ Pastikan konfigurasi seperti berikut sudah benar, terutama untuk database dan JW
 - Jalankan migration database:
 dotnet ef database update
 
-Kalau dotnet ef belum tersedia:
+- Kalau dotnet ef belum tersedia:
 dotnet tool install --global dotnet-ef
 
 - Jalankan backend:
@@ -45,7 +45,7 @@ dotnet run
 - Backend berjalan di:
 http://localhost:5152
 
-- Misal kalua backend gagal jalan
+- Misal kalau backend gagal jalan
 Cek: dotnet restore
 Lalu kemudian: dotnet build
 Kalau misal terjadi error migration, maka: dotnet ef database update
