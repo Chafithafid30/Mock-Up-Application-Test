@@ -83,6 +83,6 @@ http://localhost:5173
 Username: admin
 Password: admin123
 
-- Kalau port backend atau frontend bentrok, ubah:
-backend di launchSettings.json, frontend lewat konfigurasi Vite, atau jalankan ulang di port lainfrontend lewat konfigurasi Vite atau jalankan ulang di port lain
+- Kalau port backend atau frontend bentrok, ubah: backend di launchSettings.json, frontend lewat konfigurasi Vite, atau jalankan ulang di port lain
+
 
