@@ -1,17 +1,16 @@
-Cara Menjalankan Project Mock-Up-Application-Test
+# Cara Menjalankan Project Mock-Up-Application-Test
 
-1. Clone repository
+ ## 1. Clone repository
 git clone git@github.com:Chafithafid30/Mock-Up-Application-Test.git
 
 
-2. Struktur project. Pastikan project memiliki 2 bagian utama
+## 2. Struktur project. Pastikan project memiliki 2 bagian utama
 
 POS.API → backend .NET Core
 pos-client → frontend React
 
 
-
-3. Menjalankan Backend (POS.API)
+## 3. Menjalankan Backend (POS.API)
 - Masuk ke folder backend:
 cd POS.API
 
@@ -52,12 +51,12 @@ Lalu kemudian: dotnet build
 Kalau misal terjadi error migration, maka: dotnet ef database update
 
 
-4. Akses Swagger
+## 4. Akses Swagger
 Swagger digunakan untuk melihat dan menguji endpoint API:
 http://localhost:5152/swagger
 
 
-5. Menjalankan Frontend (pos-client)
+## 5. Menjalankan Frontend (pos-client)
 - Buka terminal baru lalu masuk ke folder frontend:
 cd pos-client
 
@@ -79,7 +78,7 @@ npm run dev
 http://localhost:5173
 
 
-6. INFORMASI TAMBAHAN 
+## 6. INFORMASI TAMBAHAN 
 - Default Login:
 Username: admin
 Password: admin123
